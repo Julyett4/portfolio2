@@ -1,0 +1,236 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+.colorNav {
+    background-color: #9096E5;
+    background-image: url(../sources/final-27.png);
+    background-size: 100%;
+    height: 120px;
+    background-repeat: no-repeat;
+    
+}
+@media (min-width:0px) and (max-width:900px) {
+    .logomotion {
+        position: relative;
+        animation: logo 15s infinite;
+    }
+    @keyframes logo {
+        0%   {top: 0%; left: 0%;}
+        10%  {top: 80%; left: 0%;}
+        20%  {top: 80%; left: 20%;}
+        30%  {top: 0%; left: 20%;}
+        40%  {top: 80%; left: 20%;}
+        50%  {top: 0%; left: 20%;}
+        60%  {top: 80%; left: 20%;}
+        70%  {top: 0%; left: 20%;}
+        
+        100% {top: 0%; left: 0%;}
+    }
+}
+@media (min-width:900px) and (max-width:2000px) {
+    .logomotion {
+        position: relative;
+        animation: logo 15s infinite;
+    }
+    @keyframes logo {
+        0%   {top: 0%; left: 0%;}
+        5%  {top: 30%; left: 0%;}
+        10%  {top: 0%; left: 13%;}
+        15%  {top: 30%; left: 13%;}
+        20%  {top: 0%; left: 28%;}
+        25%  {top: 30%; left: 28%;}
+        30%  {top: 0%; left: 42%;}
+        35%  {top: 30%; left: 42%;}
+        40%  {top: 0%; left: 56%;}
+        45%  {top: 30%; left: 56%;}
+        50%  {top: 0%; left: 71%;}
+        55%  {top: 30%; left: 71%;}
+        60%  {top: 0%; left: 85%;}
+        65%  {top: 30%; left: 85%;}
+        100% {top: 0%; left: 0%;}
+       
+    }
+}
+
+.colorNav2 {
+    background-color:#9096E5;
+    height: 100px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.colorNav21 {
+    background-color:#9096E5;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+@media (min-width:0px) and (max-width:900px) {
+    .colorNav2{
+        display: none;
+    }
+}
+.colorNav2Alt {
+    background-color: #9096E5;
+    height: 100px;
+}
+@media (min-width:900px) and (max-width:2000px) {
+    .colorNav2Alt{
+        display: none;
+    }
+}
+.caja1 {
+    background-color: #5B2645;
+    background-image: url(../sources/Sunset2-02.png);
+    background-size: 120%;
+    height: 1000px;
+    background-repeat: no-repeat;    
+}
+.cajaUno {
+    background-color:none ;
+    height: 350px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.cajaDos {
+    background-color:none;
+    height: 350px;
+    padding-top: 50px;
+    padding-right: 40px;
+    text-align: justify;
+}
+@media (min-width:0px) and (max-width:900px) {
+    .cajaDos {
+        font-weight: 300; color:azure ;
+    }
+}
+@media (min-width:900px) and (max-width:2000px) {
+.helicoptermotion {
+    position: relative;
+    animation: helicopter 30s infinite;
+}
+@keyframes helicopter {
+        0%   {top: 0%; left: 20%;}
+        10%  {top: 50%; left: 20%;}
+        20%  {top: 0%; left: 20%;}
+        30%  {top: 40%; left: 20%;}
+        40%  {top: 0%; left: 20%;}
+        50%  {top: 50%; left: 20%;}
+        60%  {top: 0%; left: 20%;}
+        70%  {top: 40%; left: 20%;}
+        80%  {top: 0%; left: 20%;}
+        90%  {top: 50%; left: 20%;}
+        100% {top: 0%; left: 20%;}
+}
+}
+@media (min-width:0px) and (max-width:900px) {
+    .helicoptermotion {
+        position: relative;
+        animation: helicopter 30s infinite;
+    }
+    @keyframes helicopter {
+    0%   {top: 0%; left: 0%;}
+    15%  {top: 0%; left: 20%;}
+    30%  {top: 70%; left: 40%;}
+    45%  {top: 0%; left: 60%;}
+    60%  {top: 70%; left: 80%;}
+    100% {top: 0%; left: 0%;}
+}}
+
+.colorNav3 {
+    background-color:#3C2C5C;
+    height: 150px;
+    padding-top: 50px;
+}
+.tecmotion {
+    position: relative;
+    animation: tecnicas 10s infinite;
+}
+@keyframes tecnicas {
+    0%   {top: 0%; left: 0%; -webkit-transform: rotate(0deg);}
+    15%  {top: 0%; left: 0%; -webkit-transform: rotate(15deg);}
+    30%  {top: 0%; left: 0%; -webkit-transform: rotate(30deg);}
+    45%  {top: 0%; left: 0%; -webkit-transform: rotate(45deg);}
+    60%  {top: 0%; left: 0%; -webkit-transform: rotate(60deg);}
+    100% {top: 0%; left: 0%; -webkit-transform: rotate(360deg);}
+}
+.blamotion {
+    position: relative;
+    animation: blandas 10s infinite;
+}
+@keyframes blandas {
+    0%   {top: 0%; left: 0%; -webkit-transform: rotate(0deg);}
+    15%  {top: 0%; left: 0%; -webkit-transform: rotate(-15deg);}
+    30%  {top: 0%; left: 0%; -webkit-transform: rotate(-30deg);}
+    45%  {top: 0%; left: 0%; -webkit-transform: rotate(-45deg);}
+    60%  {top: 0%; left: 0%; -webkit-transform: rotate(-60deg);}
+    100% {top: 0%; left: 0%; -webkit-transform: rotate(-360deg);}
+}
+.caja2 {
+    background-color: #3C2C5C;
+    background-image: url(../sources/flowersGarden-02.png);
+    background-size: 120%;
+    height: 1000px;
+    background-repeat: no-repeat;    
+}
+.cajaTres {
+    background-color:none;
+    height: 550px;
+    padding-top: 30px;
+}
+.cajaCuatro {
+    background-color:none;
+    height: 450px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.caja3 {
+    background-image: url(../sources/patttern2-01.png);
+    background-size: 100%;
+    background-repeat: repeat;
+    height: 1000px;
+}
+.colorNav4 {
+    background-color:none;
+    height: 150px;
+    padding-top: 20px;
+}
+.cajaCinco {
+    background-color:none ;
+    height: 700px;
+}
+.colorNav5 {
+    background-color:#104210;
+    height: 80px;
+}
+.colorNav6 {
+    background-color:#ffffff;
+    height: 80px;
+}
+.colorNav7 {
+    background-color:#fc2828;
+    height: 80px;
+}
+.cajaSeis {
+    background-color:#00c4ff ;
+    height: 350px;
+}.cajaSiete {
+    background-color:#ff00ff ;
+    height: 350px;
+}
+
+.quienSoy {
+    animation-duration: 5s;
+    }
+
+.Habilidades {
+    animation-duration: 15s;
+}
